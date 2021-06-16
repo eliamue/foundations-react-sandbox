@@ -6,7 +6,7 @@ export default class Header extends Component {
         return (
         <header>
             <div className="gutter-right logo">
-                <img src={this.props.logoSrc} alt="logo"/>
+                Kpop Nonsense
             </div>
         </header>
         )
