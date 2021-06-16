@@ -73,6 +73,9 @@ h2 {
 
 p {
   margin: var(--gutter);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  text-shadow: 5px 5px 10px black;
 }
 
 @keyframes pulse {
@@ -92,4 +95,9 @@ p {
       transform: rotate3d(10, 10, 10, 50deg) scale(1);
   }
 
+}
+
+button {
+  font-size: 20px;
+  margin: 5px;
 }
