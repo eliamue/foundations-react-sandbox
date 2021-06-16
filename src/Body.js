@@ -1,13 +1,18 @@
 import React, { Component } from 'react'
-import FuturamaQuotes from './FuturamaQuotes.js';
+import KpopList from './KpopList.js';
+// import { Link } from 'react-router-dom';
+// import { data } from 'browserslist';
 
 export default class Body extends Component {
     render() {
         return (
             <main>
                 <section className="main-section">
-                    <h2>{this.props.title}</h2>
-                    <FuturamaQuotes />
+                <div>
+
+                        <KpopList />
+
+                </div>
                 </section>
             </main>
         )
